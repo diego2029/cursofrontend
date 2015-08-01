@@ -1,0 +1,70 @@
+gris_oscuro = #444
+gris_claro = lighten(gris_oscuro, 40%)
+azul = #22BCE0
+
+header
+	background-color gris_oscuro
+	color white
+	padding 1em
+	box-shadow 0 5px 0 rgba(0,0,0,0.2)
+	z-index 1
+	
+	h1
+		font-size 18px
+		font-weight normal
+		padding 0
+		margin 0
+	
+	.filtro
+		font-style italic
+		font-weight bold
+	
+	.logo 
+		figure
+			height 52px
+			width 52px
+			border 1px dashed invert(gris_oscuro)
+	
+	.usuario
+		.avatar
+			height 52px
+			width 52px
+			border-radius 50% 
+			border 1px dashed invert(gris_oscuro)
+
+body
+	nav
+		background-color azul
+		
+section
+	padding 1.2em
+	article
+		border 1px solid gris_claro
+		border-bottom-left-radius 0.8em
+		border-bottom-right-radius 0.8em
+		overflow hidden
+		margin-bottom 1em
+		
+		figure
+			background-color gris_claro
+			height 160px
+			widht 120px
+			
+		h2
+			font-size 18px
+			color gris_oscuro
+		
+		.fecha
+			position relative
+			right 20px
+		
+		.acciones
+			border-top 3px solid gris_claro
+			padding 0.8em
+			min-height 3em
+			
+footer
+	background-color gris_claro
+	color white
+	padding 1em
+	
